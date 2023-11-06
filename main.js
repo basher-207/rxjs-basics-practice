@@ -1,4 +1,5 @@
-const { catchError, map, of} = require("rxjs");
+const { of } = require("rxjs");
+const { catchError, map } = require("rxjs/operators")
 const clock$ = require("./emitter");
 
 const subscription = clock$.pipe(
