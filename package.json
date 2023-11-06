@@ -4,7 +4,7 @@
   "description": "rxjs basics solution",
   "main": "main.js",
   "scripts": {
-    "test": "jest ",
+    "test": "node_modules/.bin/jest ",
     "start": "node main"
   },
   "author": "natalya revutska",
